@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Github Explorer</title>
+    <link rel="stylesheet" href="gitexp.css">
+</head>
+<body>
+    <div class="main-container" id = "main">
+        <!-- Main Container Start Here -->
+        <section class="home-section">
+            <!--= Home Section start here ==-->
+            <div class="home-content">
+                <h1 class="head">Github Explorer</h1>
+                <p class="prap">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Recusandae vitae ipsum modi nulla facilis nostrum numquam cum mollitia
+                    consectetur libero laudantium alias iste illo totam fugit, amet impedit dolores sequi.</p>
+
+                <button class="get" onclick="screenChange()">Get Start</button>
+
+            </div>
+
+
+            <!---== Home section end here==-->
+        </section>
+
+     <!-- Main Conatiner End Here-->
+    </div>
+    <!--===GitHUb Section Start Here -->
+    <section class="git-dasbord none" id = "two">
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="github_PNG53.png" alt="logo">
+            </div>
+            <h7 class="name-id" id="user-name">Sanjay kumar</h7>
+            <form class="search-bar" id="seArchBar"  onsubmit="return formSubmit()">
+                <input type="text" class="searh" id="Search" autofocus placeholder="Search github user name" id="user-name">
+    
+            </form>
+            <div id="logo">
+                <!-- <img src="" alt="photo"> -->
+            </div>
+            
+        </div>
+
+        <div class="user-inform">
+            <div class="user-data">
+                <div id="pic">
+                <!-- <img src="https://images.pexels.com/photos/19594010/pexels-photo-19594010/free-photo-of-woman-wearing-a-jacket.jpeg" alt="img" class="user-img"> -->
+                </div>
+                <span class="name-user" id="userNmae">Sanjay Kumar Yadav</h4></span>
+                <span class="id-user" id="userId">sanjaykryadav</span>
+                <p class="bio" Id="Bio">Bio</p>
+                    <p class="follow">👤<span class="followers" id="Follower">0</span> Followers <span class="following" id="Following">0</span> Following</p>
+    
+
+
+            </div>
+            <div class="repo-info">
+                <h2 class="repo-title">Repositories </h2>
+                <p class="contP">Public Repo <span class="repo-count" id="repoCount">0</span></p>
+                <div class="repoall" id="repoall">
+                   <!--  <a class="repo" href="#" target="_blank">Repo 1</a>
+                    <a class="repo" href="#" target="_blank">Repo 2</a>
+                    <a class="repo" href="#" target="_blank">Repo 3</a>
+                    <a class="repo" href="#" target="_blank">Repo 4</a> -->
+                </div>
+
+
+            </div>
+        </div>
+        <footer class="footer">
+            <p>All Right Reserve S Yadav</p>
+        
+        </footer>
+        
+     <!--===GitHUb Section End Here===-->
+    </section>
+
+    <script src="gitexp.js">
+        
+    </script>
+</body>
+</html>

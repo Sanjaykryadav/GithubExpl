@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    color: #011e50;
+    background-color: #09001d;
+    overflow: hidden;
+  
+  }
+
+.none{
+  display: none;
+  z-index: -1;
+  position: absolute;
+}
+
+  
+  .main-container {
+    height: 100vh;
+    background: url(december-5-2019-galaxy-m81.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    pointer-events: auto;
+    transition: 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .home-content {
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .home-content .head {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 0 0 10 rgba(0, 0, 0, .3);
+    color: #ffffff ;
+  }
+  
+  .home-content .prap {
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #0b0132
+  
+  }
+  
+  .home-content .get {
+    width: 190px;
+    height: 55px;
+    background: #011e50;
+    border: 2px solid #fff;
+    outline: none;
+    box-shadow: 0 0 10px #011e50;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+  
+  }
+  
+  .home-content .get:hover {
+    background-color: #09001d;
+    box-shadow: none;
+  }
+
+  /*===== Git Dasbord CSS start here  =====*/
+
+  .git-dasbord{
+    position: relative;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #161b22;
+    transition: 0.8ss ease-in-out;
+    
+}
+  
+
+  .git-dasbord .nav-bar{
+    background-color: #020007;
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+
+  }
+  .nav-bar .logo{
+    height: 60px;
+    width: 60px;
+    background: #e5e5e8;
+    border: 2px solid #0b0b0b;
+    border-radius: 100%;
+    margin-left: 6rem;
+    margin-right: 1rem;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .nav-bar #logo{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background: #011e50;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    overflow: hidden;
+
+  }
+  .nav-bar .name-id{
+    color: #fff;
+    font-size:20px;
+    margin-right: 12rem;
+  }
+
+  .nav-bar .search-bar{
+    height: 80px;
+    width: 670px;
+    display: flex;
+    align-items: center;
+  }
+  .search-bar .searh{
+    height: 45px;
+    width: 500px;
+    margin-left: 15px;
+    border: 3px solid #b2b2b4;
+    border-radius: 50px;
+    background-color: #020007;
+    padding-left: 40px;
+    color: #fff;
+    font-size: 22px;
+    outline: none;
+
+  }
+  .search-bar .searh::placeholder{
+    color: #a7d5ec;
+    font-size: 18px;
+    
+  }
+
+  /*===Here User -information ===*/
+
+
+.user-inform{
+    margin: 30px  30px ;
+
+    height: 70vh;
+    width: 96%;
+    display: flex;
+    
+}
+.user-inform .user-data{
+
+    height: 560px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+
+}
+.user-data #pic{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  background-color: #a7d5ec;
+  border: 2px solid #020007;
+  border-radius: 50%;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+
+.user-data .name-user{
+    font-size: 30px;
+    line-height: 1.25;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 500px;
+}
+.user-data .id-user{
+  font-size: 25px;
+  font-style: normal;
+  font-weight:  500;
+  line-height: 30px;
+  color: grey;
+
+}
+
+.user-data .bio{
+  margin-left: 9rem;
+  margin-right: 5rem;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+
+}
+
+
+.follow{
+  font-size: 1.5rem;
+  color:rgb(122, 118, 118);
+
+}
+
+.follow span{
+  color: floralwhite;
+}
+
+.user-inform .repo-info{
+  height: fit-content;
+  width: 800px;
+
+}
+.repo-info .repo-title{
+  font-size: 35px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.repo-info .contP{
+  font-size: 18px;
+  margin-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  color: #b2b2b4;
+
+}
+
+.repo-info .contP .repo-count
+{
+
+  font-size: 18px;
+  color: #c3c7cd;
+  background: rgb(52, 50, 50);
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 5px 10px  5px 10px;
+  
+}
+.repo-info .repoall{
+  height: 60vh;
+  margin-top: 10px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+  justify-content: space-between;
+  padding-right: 10%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.repo-info .repoall a{
+  text-decoration: none;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.repoall .repo{
+  color: #fff;
+  background: #011e50;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #020007;
+  border-radius: 20px;
+
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+    height: 8vh;
+    width: 100%;
+    background-color: #020007;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c3c7cd;
+    
+}
