@@ -12,17 +12,6 @@ const RepoCount = document.getElementById("repoCount");
 const SearchBar = document.getElementById("seArchBar");
 const SearchUser = document.getElementById("Search");
 
-/* const formSubmit = ()=>{
-    if(SearchUser.value !=""){
-        GetUserName(SearchUser.value);
-        SearchUser.value="";
-
-    }
-    return false;
-}
-SearchUser.addEventListener('focusout', function(){
-    formSubmit();
-}); */
 
 const screenOne = document.getElementById("main");
 const screenTwo = document.getElementById("two");
@@ -46,6 +35,8 @@ const GetUserName = async (username) => {
   RepoCount.innerText = Data.public_repos;
 
   GetRepo(username);
+    
+GetUserName("sanjaykryadav");
 };
 
 const GetRepo = async (username) => {
@@ -75,4 +66,3 @@ SearchUser.addEventListener("focusout", function () {
   formSubmit();
 });
 
-//GetUserName("sanjaykryadav");
