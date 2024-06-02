@@ -36,7 +36,7 @@ const GetUserName = async (username) => {
 
   GetRepo(username);
     
-  GetUserName("sanjaykryadav");
+  
 };
 
 const GetRepo = async (username) => {
@@ -65,4 +65,5 @@ const formSubmit = () => {
 SearchUser.addEventListener("focusout", function () {
   formSubmit();
 });
+GetUserName("sanjaykryadav");
 
