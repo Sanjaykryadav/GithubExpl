@@ -23,7 +23,7 @@ const screenChange = () => {
 const GetUserName = async (username) => {
   const Response = await fetch(ApiUrl + username);
   const Data = await Response.json();
-  console.log(Data);
+ // console.log(Data);
   UserPic.innerHTML = `<img src="${Data.avatar_url}">`;
   UserLogo.innerHTML = `<img src="${Data.avatar_url}">`;
   UsrName.innerText = Data.name;
@@ -44,9 +44,9 @@ const GetRepo = async (username) => {
   RepoAll.innerHTML = "";
   const reponse = await fetch(ApiUrl + username + "/repos");
   const repdata = await reponse.json();
-  console.log(repdata);
+  //console.log(repdata);
   repdata.forEach((Repo) => {
-    console.log(Repo);
+    //console.log(Repo);
     const Element = document.createElement("a");
     Element.classList.add("repo");
     Element.href = Repo.html_url;
