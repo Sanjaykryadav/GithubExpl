@@ -36,7 +36,7 @@ const GetUserName = async (username) => {
 
   GetRepo(username);
     
-GetUserName("sanjaykryadav");
+  GetUserName("sanjaykryadav");
 };
 
 const GetRepo = async (username) => {
