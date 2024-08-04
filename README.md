@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
    ```sh
    open index.html
    
-** Usage
+## Usage
    1. Open the website in your browser.
    2. Enter a GitHub username in the search bar.
    3. Press enter or click the search button to view the user's profile and repository details.
